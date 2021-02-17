@@ -1,0 +1,83 @@
+.vl
+{
+    border-left: 6px solid rgb(253, 251, 250);
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 100;
+}
+
+.width
+{
+    width: 100px;
+}
+
+.space
+{
+    margin-top: 2.0em;
+}
+.spacex
+{
+    margin-top: 6.0em;
+}
+#corners
+{
+    border-radius: 25px;
+}
+#score-0,#score-1
+{
+    font-size: 6ch;
+    color: rgb(228, 15, 0);
+}
+
+#current-0,#current-1{
+    font-size: 8ch;
+    color: #000;
+}
+#p1,#p0{
+    font-size: 5ch;
+    color: black;
+    font: bolder;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .grid-item1 {
+    background-color: red;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item2 {
+    background-color: grey;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+
+  /* for rule page*/
+
+  P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+
+.container{
+    height: auto;
+    width: 50px;
+    padding: 10px;
+    background-color: burlywood;
+    margin: 5%;
+}
+.btn-center{
+    align-items: center;
+top: auto;
+left: 50%;
+}
+
